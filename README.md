@@ -9,6 +9,17 @@ ADN.IO is a cross-platform open-source library which provides input/output helpe
 [![Quality](https://sonarcloud.io/api/project_badges/measure?project=andresdigiovanni_ADN.IO&metric=alert_status)](https://sonarcloud.io/dashboard?id=andresdigiovanni_ADN.IO)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## Basic usage
+
+Copy directory example:
+
+```csharp
+var source = "sourceDir";
+var destination = "destDir";
+var overwrite = true;
+DirectoryHelper.CopyDirectory(source, destination, overwrite);
+```
+
 ## Installation
 
 ADN.IO runs on Windows, Linux, and macOS.
